@@ -1,4 +1,4 @@
-class Solution {
+class Solution 
 public:
     int partition(vector<int>& nums, int left, int right){
         int pivot = nums[right];
