@@ -1,3 +1,4 @@
+//First approach - space complexity - O(n)
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -16,5 +17,19 @@ public:
         for(int i = k; i < n; i++){    
             nums[i] = num[i-k];
         }
+    }
+};
+
+//Second approach - space complexity - O(1)
+class Solution {
+public:
+    void rotate(vector<int>& nums, int k) {
+        int n = nums.size();
+        if(n < 1) return;
+        if(k > n) k = k % n;
+
+        reverse(nums.begin(), nums.end());
+        reverse(nums.begin(), nums.begin() + k);
+        reverse(nums.begin() + k, nums.end());
     }
 };
