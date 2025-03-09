@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int cross(vector<int>& nums, int low, int mid, int high){
+    int cross(vector<int>& nums, int low, int mid, int high)
         int sum = 0;
         int leftSum = INT_MIN;
         for(int i = mid; i >= low; i--){
