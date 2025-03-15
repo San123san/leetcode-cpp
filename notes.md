@@ -7,3 +7,5 @@ The expression `k % n` is used to handle cases where the number of rotations `k`
 Choose greedy algorithms when you need a fast and efficient solution to an optimization problem, and you have reason to believe that locally optimal choices will lead to a good global solution.
 
 In backtracking, there may be duplicate elements. Keep in mind to remove duplicate elements if needed.
+
+unordered_map<int, vector<int>> map; , in this you can add multiple value(pairs) with keys
