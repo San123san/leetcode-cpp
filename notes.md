@@ -9,3 +9,8 @@ Choose greedy algorithms when you need a fast and efficient solution to an optim
 In backtracking, there may be duplicate elements. Keep in mind to remove duplicate elements if needed.
 
 unordered_map<int, vector<int>> map; , in this you can add multiple value(pairs) with keys
+
+In divide and conquer, in calculation you cant something like this to get sum = findSum(...) + findSum(...)
+return sum
+but in comparision can do like this max = max(findMax(...), findMax(...) )
+return max
