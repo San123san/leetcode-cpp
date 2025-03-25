@@ -18,6 +18,6 @@ return max
 In this code, unordered_map.find(key) != unordered_map.end() checks if a specific key exists in the map. If the key is found, it returns the corresponding value; otherwise, it means the key is not present in the map. This allows for efficient lookups and insertions, ensuring average O(1) time complexity.
 
 Key Signs You Might Need Sliding Window:
-You are working with contiguous subarrays.
-You need to minimize or maximize something (difference, sum, product, etc.) over a range of elements.
-The problem involves a range (difference, sum, or other metric) and asks for the smallest/largest possible value over that range.
+1)You are working with contiguous subarrays.
+2)You need to minimize or maximize something (difference, sum, product, etc.) over a range of elements.
+3)The problem involves a range (difference, sum, or other metric) and asks for the smallest/largest possible value over that range.
