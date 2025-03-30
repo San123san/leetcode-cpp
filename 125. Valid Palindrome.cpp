@@ -1,4 +1,4 @@
-class Solution 
+class Solution {
 public:
     bool isPalindrome(string s) {
         s.erase(remove_if(s.begin(), s.end(), [](char c) {
