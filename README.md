@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-This repository contains solutions to LeetCode problems that I have solved. I upload a solution to a new problem I work on, along with the code in C++.
+This repository contains solutions to LeetCode problems or GFG problems that I have solved. I upload a solution to a new problem I work on, along with the code in C++.
 
 Feel free to explore the solutions, contribute, or suggest improvements!
 
