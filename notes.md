@@ -21,3 +21,7 @@ Key Signs You Might Need Sliding Window:
 1)You are working with contiguous subarrays.
 2)You need to minimize or maximize something (difference, sum, product, etc.) over a range of elements.
 3)The problem involves a range (difference, sum, or other metric) and asks for the smallest/largest possible value over that range.
+
+Pair Sum Using Two-Pointer Approach:
+The two-pointer technique can be used to find a pair of elements in a sorted array whose sum equals a given target. Start by placing one pointer at the beginning (left) and the other at the end (right) of the array. If the sum of the values at both pointers equals the target, the pair is found. If the sum is smaller, move the left pointer to the right to increase the sum, and if it's larger, move the right pointer to the left to decrease the sum. This approach works in O(n) time.
+
