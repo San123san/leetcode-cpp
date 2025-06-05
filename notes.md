@@ -29,8 +29,7 @@ The two-pointer technique can be used to find a pair of elements in a sorted arr
 n C++, the default priority_queue is a max-heap, meaning:
 When you call .pop(), it removes the largest element (i.e., the element with the highest priority).
 
-
-* Recursion & Backtracking Notes (C++)*
+Recursion & Backtracking Notes (C++)
 * If you pass a variable by reference (&), you must undo changes manually (e.g., pop_back(), swap back) for correct backtracking.
 * If you pass it by value (copy), no need to undo — each recursive call gets a separate copy that is destroyed after return.
 * Recursion is sequential, not parallel — it explores one path at a time like depth-first traversal of a tree; return naturally "backtracks" up the call stack.
