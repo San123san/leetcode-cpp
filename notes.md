@@ -33,3 +33,12 @@ Recursion & Backtracking Notes:
 1)If you pass a variable by reference (&), you must undo changes manually (e.g., pop_back(), swap back) for correct backtracking.
 2)If you pass it by value (copy), no need to undo — each recursive call gets a separate copy that is destroyed after return.
 3)Recursion is sequential, not parallel — it explores one path at a time like depth-first traversal of a tree; return naturally "backtracks" up the call stack.
+
+
+### Front and Rear Pointers in Circular Queue
+
+- **Front Pointer:** Indicates the index of the first element in the queue. Moves forward circularly using `front = (front + 1) % capacity` during dequeue to maintain the queue’s circular nature.
+
+- **Rear Pointer:** Indicates the index of the last element in the queue. Moves forward circularly using `rear = (rear + 1) % capacity` during enqueue to efficiently utilize available space by wrapping around the array.
+
+These pointers are essential for managing queue boundaries within a fixed-size array and enable efficient, continuous use of the array without element shifting.
